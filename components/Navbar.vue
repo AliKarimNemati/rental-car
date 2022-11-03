@@ -22,7 +22,7 @@
             <nuxt-link class="nav-link" to="/#about">About</nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
+            <nuxt-link class="nav-link" to="/#services">Service</nuxt-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Cars</a>
