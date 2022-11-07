@@ -5,6 +5,7 @@
     <AboutUs />
     <Service />
     <Collection />
+    <Footer />
   </div>
 </template>
 

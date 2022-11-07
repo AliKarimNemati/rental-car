@@ -37,7 +37,7 @@ export const state = () => ({
     },
     {
         id: 6,
-        name : "kia rio S",
+        name : "kia Rio S",
         loc: "Paris",
         price: 70,
         img: "kia rio S.jpg"
