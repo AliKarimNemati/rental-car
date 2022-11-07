@@ -15,7 +15,7 @@
       </b-navbar-nav>
     </b-collapse>
       <div class="d-lg-block d-none">
-        <button type="button" class="btn btn-dark">Download app</button>
+        <button type="button" class="btn btn-dark"> <i class="bi bi-apple"></i> Download app</button>
       </div>
   </b-navbar>
 </div>

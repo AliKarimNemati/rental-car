@@ -16,7 +16,7 @@
             ${{ car.price }}
             <small class="text-secondary">/days</small>
           </h4>
-          <small class="text-secondary">{{ car.loc }}</small>
+          <small class="text-secondary"> <i class="bi bi-geo-alt-fill"></i> {{ car.loc }}</small>
         </div>
         <h5 class="card-title">{{ car.name }}</h5>
         <a href="#" class="btn btn-outline-dark">Booking Now</a>

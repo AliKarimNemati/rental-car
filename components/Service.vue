@@ -13,6 +13,9 @@
       <div class="d-flex flex-wrap cards">
         <div class="card col-md-3 col-12 m-3" v-for="(service, i) in services" :key="i">
           <div class="card-body">
+            <div class="text-center">
+            <i class="bi bi-boxes service-icons"></i>
+            </div>
             <h5 class="card-title text-center">{{service}}</h5>
             <p class="card-text text-center">
               Some quick example text to build on the card title and make up the
@@ -50,5 +53,9 @@ export default {
 
 .card{
     border-top: #007bff 4px solid;
+}
+
+.service-icons{
+  font-size: 80px;
 }
 </style>
