@@ -4,6 +4,7 @@
     <HeroSection />
     <AboutUs />
     <Service />
+    
   </div>
 </template>
 

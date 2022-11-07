@@ -1,17 +1,17 @@
 <template>
   <div id="services">
-    <div class="bg-dark m-3 p-5">
+    <div class="bg-dark m-3 p-md-5 p-4">
       <p class="text-primary bold text-center">Our Services</p>
-      <h1 class="header text-light col-5 text-center service-header">
+      <h1 class="header text-light col-md-5 col-12 text-center service-header">
         We have a best service for the rent cars
       </h1>
-      <p class="text-secondary col-6 text-center service-info">
+      <p class="text-secondary col-md-6 col-12 text-center service-info">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum pariatur
         rem perferendis fugiat deserunt natus praesentium officia quibusdam
         omnis.
       </p>
-      <div class="d-flex cards">
-        <div class="card col-3 m-3" v-for="(service, i) in services" :key="i">
+      <div class="d-flex flex-wrap cards">
+        <div class="card col-md-3 col-12 m-3" v-for="(service, i) in services" :key="i">
           <div class="card-body">
             <h5 class="card-title text-center">{{service}}</h5>
             <p class="card-text text-center">
