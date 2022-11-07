@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style>
-  .bold{
+    .bold{
     font-weight: 600;
   }
 </style>

@@ -10,6 +10,7 @@
         <b-nav-item to="/#" active>Home</b-nav-item>
         <b-nav-item to="/#about" active>About</b-nav-item>
         <b-nav-item href="/#services" active>Service</b-nav-item>
+        <b-nav-item href="/#collection" active>Collection</b-nav-item>
         <b-nav-item href="/#" active>Cars</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
