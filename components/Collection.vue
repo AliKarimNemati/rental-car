@@ -42,7 +42,7 @@
         <CarCollection :cars="smallCars" :isShow="smallCarsShow" />
 
       <div class="text-center">
-        <nuxt-link to="/" class="btn btn-primary">see all cars</nuxt-link>
+        <nuxt-link to="/cars" class="btn btn-primary">see all cars</nuxt-link>
       </div>
     </div>
   </div>

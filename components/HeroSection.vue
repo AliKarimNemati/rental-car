@@ -12,8 +12,8 @@
           qui dignissimos!
         </p>
         <div>
-          <button type="button" class="btn btn-primary">Booking now</button>
-          <nuxt-link to="/" class="p-3 text-dark h5">see all cars</nuxt-link>
+          <nuxt-link to="/#collection" class="btn btn-primary">Booking now</nuxt-link>
+          <nuxt-link to="/cars" class="p-3 text-dark h5">see all cars</nuxt-link>
         </div>
       </div>
 
