@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="img/about us.jpg" class="cars-img mt-5" />
+    <img src="/img/about us.jpg" class="cars-img mt-5" />
     <div class="p-md-5 p-4">
       <h1 class="header text-center mt-3">All Cars</h1>
       <p class="text-secondary col-md-8 col-10 text-center ml-auto mr-auto">

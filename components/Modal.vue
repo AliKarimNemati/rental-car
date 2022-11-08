@@ -12,7 +12,7 @@
         {{this.car.name}} is rented from {{this.from}} to {{this.to}} successfully
 
       </b-alert>
-      <img :src="'img/' + car.img" class="w-100" height="250" />
+      <img :src="'../img/' + car.img" class="w-100" height="250" />
       <div>
         <label for="example-datepicker mt-3">From:</label>
         <b-form-datepicker
@@ -43,7 +43,7 @@ export default {
     return {
       from: null,
       to: null,
-      dismissSecs: 10,
+      dismissSecs: 5,
       dismissCountDown: 0,
       showDismissibleAlert: false,
     };

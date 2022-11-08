@@ -11,8 +11,8 @@
           <i class="bi bi-geo-alt-fill"></i> {{ car.loc }}</small
         >
       </div>
-      <h5 class="card-title">{{ car.name }}</h5>
-      <b-button v-b-modal.rent-car-modal @click="handleCar" class="btn">Booking Now</b-button>
+      <nuxt-link class="card-title h5 text-dark" :to="'/cars/'+car.id">{{ car.name }}</nuxt-link>
+      <b-button v-b-modal.rent-car-modal @click="handleCar" class="btn mt-3 col">Booking Now</b-button>
     </div>
   </div>
 </template>
