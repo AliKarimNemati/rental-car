@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Navbar />
     <img src="img/about us.jpg" class="cars-img mt-5" />
     <div class="p-md-5 p-4">
       <h1 class="header text-center mt-3">All Cars</h1>
@@ -15,8 +14,6 @@
       <CarCollection :cars="largeCars" :isShow="true" />
       <CarCollection :cars="smallCars" :isShow="true" />
     </div>
-
-    <Footer />
   </div>
 </template>
 

@@ -1,11 +1,9 @@
 <template>
   <div>
-    <Navbar />
     <HeroSection />
     <AboutUs />
     <Service />
     <Collection />
-    <Footer />
   </div>
 </template>
 
