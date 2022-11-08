@@ -37,9 +37,9 @@
         </ul>
       </div>
 
-        <CarCollection :cars="popularCars" :isShow="popularCarsShow" />
-        <CarCollection :cars="largeCars" :isShow="largeCarsShow" />
-        <CarCollection :cars="smallCars" :isShow="smallCarsShow" />
+        <CarCollection :cars="popularCars" v-if="popularCarsShow" />
+        <CarCollection :cars="largeCars" v-if="largeCarsShow" />
+        <CarCollection :cars="smallCars" v-if="smallCarsShow" />
 
       <div class="text-center">
         <nuxt-link to="/cars" class="btn btn-primary">see all cars</nuxt-link>

@@ -10,9 +10,7 @@
         molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi tempore, molestiae quisquam officia est quasi maxime asperiores quaerat iste hic eum, eveniet perspiciatis alias ipsam totam ratione maiores nulla laudantium!
       </p>
 
-      <CarCollection :cars="popularCars" :isShow="true" />
-      <CarCollection :cars="largeCars" :isShow="true" />
-      <CarCollection :cars="smallCars" :isShow="true" />
+      <CarCollection :cars="cars"/>
     </div>
   </div>
 </template>
@@ -23,6 +21,18 @@ export default {
   computed: {
     ...mapState(["popularCars", "largeCars", "smallCars"]),
   },
+
+  data(){
+    return{
+      cars: []
+    }
+  },
+  mounted(){
+    this.cars.push(...this.popularCars);
+    this.cars.push(...this.largeCars);
+    this.cars.push(...this.smallCars);
+    console.log(this.cars);
+  }
 };
 </script>
 
