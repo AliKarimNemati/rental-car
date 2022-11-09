@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="card-shadow">
     <img :src="'img/' + car.img" class="card-img-top w-100" height="230" />
     <div class="card-body">
       <div class="d-flex justify-content-between">
@@ -29,4 +29,7 @@ export default {
 </script>
 
 <style>
+.card-shadow{
+  box-shadow: 2px 4px 20px gray;
+}
 </style>

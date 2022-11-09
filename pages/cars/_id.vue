@@ -42,6 +42,18 @@ export default {
       this.$emit("getCar", this.car);
     },
   },
+    head() {
+    return {
+      title: this.car.name,
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Renty is the the best website for renting cars",
+        },
+      ],
+    };
+  },
 };
 </script>
 

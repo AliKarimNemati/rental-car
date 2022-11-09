@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <div class="d-flex flex-wrap-reverse p-md-5 p-4 bg-light">
+    <div class="d-flex flex-wrap-reverse p-md-5 p-4">
       <div class="col-md-6 col-12 mt-3 mt-md-0">
         <img src="img/about us.jpg" class="w-100 rounded" />
       </div>

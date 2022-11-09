@@ -7,10 +7,13 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vero, ea
         voluptatem in aut quia hic nobis? Tempora tenetur, culpa et nam
         accusantium repellendus libero maiores voluptate laboriosam quo
-        molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi tempore, molestiae quisquam officia est quasi maxime asperiores quaerat iste hic eum, eveniet perspiciatis alias ipsam totam ratione maiores nulla laudantium!
+        molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Eligendi tempore, molestiae quisquam officia est quasi maxime asperiores
+        quaerat iste hic eum, eveniet perspiciatis alias ipsam totam ratione
+        maiores nulla laudantium!
       </p>
 
-      <CarCollection :cars="cars"/>
+      <CarCollection :cars="cars" />
     </div>
   </div>
 </template>
@@ -22,17 +25,29 @@ export default {
     ...mapState(["popularCars", "largeCars", "smallCars"]),
   },
 
-  data(){
-    return{
-      cars: []
-    }
+  data() {
+    return {
+      cars: [],
+    };
   },
-  mounted(){
+  mounted() {
     this.cars.push(...this.popularCars);
     this.cars.push(...this.largeCars);
     this.cars.push(...this.smallCars);
     console.log(this.cars);
-  }
+  },
+  head() {
+    return {
+      title: "All Cars",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Renty is the the best website for renting cars",
+        },
+      ],
+    };
+  },
 };
 </script>
 

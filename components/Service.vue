@@ -11,7 +11,7 @@
         omnis.
       </p>
       <div class="d-flex flex-wrap cards">
-        <div class="card col-md-3 col-12 m-3" v-for="(service, i) in services" :key="i">
+        <div class="card col-md-3 col-12 m-3 card-shadow" v-for="(service, i) in services" :key="i">
           <div class="card-body">
             <div class="text-center">
             <i class="bi bi-boxes service-icons"></i>
