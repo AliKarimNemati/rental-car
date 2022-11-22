@@ -1,7 +1,7 @@
 <template>
   <div>
-    <img src="/img/about us.jpg" class="cars-img mt-5" />
-    <div class="p-md-5 p-4">
+    <img src="/img/banner.jpg" class="cars-img mt-5 pt-2" />
+    <div class="p-4">
       <h1 class="header text-center mt-3">All Cars</h1>
       <p class="text-secondary col-md-8 col-10 text-center ml-auto mr-auto">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vero, ea
@@ -54,7 +54,7 @@ export default {
 <style>
 .cars-img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   filter: brightness(0.5);
 }
 </style>

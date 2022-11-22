@@ -29,6 +29,7 @@
           class="mb-2"
         ></b-form-datepicker>
       </div>
+      <div class="text-danger" v-if="showError">Please enter date.</div>
       <div class="text-center">
         <b-button @click="showAlert" class="btn m-1"> Rent Now </b-button>
       </div>
@@ -46,6 +47,7 @@ export default {
       dismissSecs: 5,
       dismissCountDown: 0,
       showDismissibleAlert: false,
+      showError: false
     };
   },
   methods: {
@@ -54,7 +56,13 @@ export default {
     },
 
     showAlert() {
-      this.dismissCountDown = this.dismissSecs;
+      if (this.to !== null && this.from !== null) {
+        this.dismissCountDown = this.dismissSecs;
+        this.showError = false;
+      }
+      else{
+        this.showError = true;
+      }
     },
   },
 };
