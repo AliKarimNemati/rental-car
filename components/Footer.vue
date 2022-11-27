@@ -68,13 +68,10 @@ export default {};
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
-}
-
-.bi{
   transition: .5s;
 }
 
-.bi:hover{
+.social-media i:hover{
   background: #eee;
   color: rgb(54, 116, 233);
   width: 45px;
