@@ -1,6 +1,6 @@
 <template>
   <div id="collection">
-    <div class="p-md-5 p-4">
+    <div class="p-md-5 p-4 m-2 m-md-0">
       <p class="text-primary bold text-center">Collection</p>
       <h1 class="header text-center">Our Collection Cars</h1>
       <div class="mt-3">

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="d-flex flex-wrap-reverse p-md-5 p-4 mt-4">
+    <div class="d-flex flex-wrap-reverse p-md-5 p-4 mt-5">
       <div class="col-md-5 col-12">
         <h1 class="header mt-3 mt-md-0">
           Search and find your best car rental with easy way

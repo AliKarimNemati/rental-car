@@ -1,12 +1,16 @@
 <template>
-  <div class="mt-5 d-flex flex-wrap p-md-5 p-4 carDetail">
+  <div class="mt-5 d-flex flex-wrap p-md-5 p-4 carDetail align-items-md-center">
     <Modal :car="car" />
 
-    <div class="col-md-5 col-12">
-      <img :src="'../img/' + car.img" class="w-100 rounded" />
+    <div class="col-md-5 col-12 mt-4">
+      <img
+        :src="'../img/' + car.img"
+        class="w-100 rounded car-img"
+        height="300"
+      />
     </div>
     <div class="col-md-7 col-12">
-      <h1 class="header">{{ car.name }}</h1>
+      <h1 class="header mt-3 pl-2 mt-md-0 pl-md-0">{{ car.name }}</h1>
       <p
         class="col-md-9 col-12 justify-md-content-center justify-content-start"
       >
@@ -42,7 +46,7 @@ export default {
       this.$emit("getCar", this.car);
     },
   },
-    head() {
+  head() {
     return {
       title: this.car.name,
       meta: [
@@ -62,6 +66,19 @@ span {
   font-size: 18px;
 }
 .carDetail {
-  height: 75vh;
+  margin-bottom: 5%;
+}
+
+.car-img {
+  height: 350px;
+}
+
+@media (max-width: 768px) {
+  .car-img {
+    height: 200px;
+  }
+  .carDetail {
+    margin-bottom: 13%;
+  }
 }
 </style>

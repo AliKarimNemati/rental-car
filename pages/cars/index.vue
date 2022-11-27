@@ -13,7 +13,7 @@
         maiores nulla laudantium!
       </p>
 
-      <CarCollection :cars="cars" />
+      <CarCollection :cars="cars" class="m-2 m-md-0"/>
     </div>
   </div>
 </template>
